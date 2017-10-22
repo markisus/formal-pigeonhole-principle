@@ -1,7 +1,6 @@
 Require Import Coq.Lists.List.
 Import ListNotations.
 
-Search lt.
 Require Import Coq.Arith.PeanoNat.
 Import Nat.
 
