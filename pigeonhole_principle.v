@@ -37,7 +37,7 @@ Proof.
              rewrite <- succ_le_mono. apply H1.
 Qed.
 
-Theorem pigeon_hole_principle :
+Theorem pigeonhole_principle :
   forall (l : @list nat),
     length l < sum_entries l ->
     exists x, In x l /\ x > 1.
